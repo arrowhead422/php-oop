@@ -25,6 +25,13 @@ return “{$this­>weather1}” .
 
 }
 
+$me = new weather();
+
+
+
+	//any object­by­object basis using the characters ‘­>’ in conjunction with an object variable and property name.
+
+
 
 
 
