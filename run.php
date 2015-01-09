@@ -56,6 +56,7 @@ if (is_string("hello")){ // if and else statment can use many type of function
 
 echo "yes"; // the bracket example
 is_array($weather);
+var_dump(is_double(555.5));
 }
 else
 
