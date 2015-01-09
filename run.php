@@ -51,22 +51,18 @@ var_dump(is_string("true"));
 
 
 
-if (is_string(":) hello") // 
+if (is_string("hello")){ // if and else statment can use many type of function
 
-echo ":)";
-
+echo "yes"; // the bracket example
+}
 else
 
-echo ":(";
+echo "no";
+{
+is_string("hello");
 
-var_dump(is_string("a string are character data"));
 
-var_dump(is_string("7777"));
-
-var_dump(is_string("123"));
-
-var_dump(is_string("true"));
-
+}
 
 
 ?>
