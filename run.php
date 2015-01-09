@@ -12,9 +12,11 @@
 */
 
 //====example 1====//
-if(is_string("hello")){   // the frist string only echos out the if statment.
+//Question :notes why you think it outputs this along with your three other examples.
 
-echo "hello and good day";
+if(is_string("hello")){   // is because the function var_dump can check and display the structured information.
+
+echo "hello and good day";// the frist string only echos out the if statment.
 }
 else
 {
@@ -22,8 +24,7 @@ echo "hello my name is xiang"; // thats because the bracket is preven the if and
 
 var_dump(is_string("XVY"));
 
-var_dump(is_string("8008"));
-
+var_dump(is_string("8008")); // the var_dump define as The var_dump() function is used to display structured information (type and value) about one or more  variables. 
 var_dump(is_string("123"));
 
 var_dump(is_string("false"));
@@ -50,10 +51,11 @@ var_dump(is_string("true"));
 //=====example 3====//
 
 
-
+$weather = "hello";
 if (is_string("hello")){ // if and else statment can use many type of function
 
 echo "yes"; // the bracket example
+is_array($weather);
 }
 else
 
@@ -62,7 +64,19 @@ echo "no";
 is_string("hello");
 
 
+
 }
+
+
+
+
+
+
+
+
+$b = 3.1;
+$c = true;
+var_dump($b, $c);
 
 
 ?>
