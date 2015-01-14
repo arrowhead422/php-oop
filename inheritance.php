@@ -17,7 +17,7 @@
 		public $name;
 		public $quality
 		
-		function  hipster($type, $year, $time, $player, $name, $quality)
+		function hipster($type, $year, $time, $player, $name, $quality)
 		{
 			$this->type = $type;//The $this is a mechanism by which a class can refer to an object instance.
 			$this->year = $year;
