@@ -6,18 +6,23 @@
 <body>
 
 <?php
+
+//=====example 1 =========
+
 	class music {
 		public $type;
 		public $year;
 		public $time;
+		public $player;
 		public $name;
 		public $quality
 		
-		function __construct($type, $year, $time, $name, $quality)
+		function __construct($type, $year, $time, $player, $name, $quality)
 		{
 			$this->type = $type;//The $this is a mechanism by which a class can refer to an object instance.
 			$this->year = $year;
 			$this->time = $time;
+			$this->player = $player;
 			$this->name = $name;
 			$this->quality = $quality;
 
@@ -32,19 +37,22 @@
 
 	}
 
-	class pop extends music{ // you can created a child class, that can act as extends the class
+	class coldplay extends music{ // you can created a child class, that can act as extends the class
 		function yellow(){
-			return $this->coldplay;
+			return $this->name;
 		}
 
 	}
 
-	class rock extends music{
-		function highway(){
-			return $this->hellye;
+	class icebaby extends music{
+		function baby(){
+			return $this->quality;
 		}
 
 	}
+	$pop = new pop("when" "fame" "play");
+
+print "this music has " . $pop­>Mymusic();
 
 
 
@@ -53,15 +61,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
+//======example 2 ==========
 
 
 class fish {
@@ -69,55 +69,65 @@ class fish {
 	public $type;
 	public $name;
 	public $size;
+	public $fishing;
 	public $where;
+	public $season
 	public $eat;
 	public $lifeline;
 
-function __construct($type, $breed, $name, $size, $where, $eat, $lifeline) {
+function __construct($type, $breed, $name, $size, $fishing, $where, $season, $eat, $lifeline) {
 	$this->breed = $breed;
 	$this->type = $type;
 	$this->name = $name;
 	$this->size = $size;
-	$this->where = $where;
+	$this->fishing = $fishing;
 	$this->eat = $eat;
+	$this->season = $season;
+	$this->where = $where;
 	$this->lifeline = $lifeline;
 
 	
 
 }
 
-function fishing() {
+function MYfish() {
 
-return “This is my “ . $this­>firstName .
+return "my brother loves".$this->fishing "at" $this->where "during the" $this->season = $season;
+
+}
+
+}
+
+class bass extends fish {
+
+function water() {
+
+return $this->name;
+
+}
+
+class troud extends fish {
+
+function liquid() {
+
+return $this->lifeline;
 
 }
 
 }
 
-class Cat extends Animal {
-
-function greet() {
-
-return $this­>meow”;
-
+class tvshow{
+	public $familyguy;
+	public $simpson;
+	public $name;
+	public $when;
+	Public $
 }
 
-“ and last ” . $this­>lastName;
 
-}
 
-class Dog extends Animal {
 
-function hello() {
 
-return $this­>bark;
-
-}
-
-}
-$cat = new Cat(“Cat”, “Mellow”, “Yellow”, “male”, 15);
-
-print “Animal 1 is a ” . $cat­>getName();
 ?>
 
 </body>
