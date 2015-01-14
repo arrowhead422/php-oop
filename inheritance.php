@@ -17,7 +17,7 @@
 		public $name;
 		public $quality
 		
-		function __construct($type, $year, $time, $player, $name, $quality)
+		function  hipster($type, $year, $time, $player, $name, $quality)
 		{
 			$this->type = $type;//The $this is a mechanism by which a class can refer to an object instance.
 			$this->year = $year;
@@ -75,7 +75,7 @@ class fish {
 	public $eat;
 	public $lifeline;
 
-function __construct($type, $breed, $name, $size, $fishing, $where, $season, $eat, $lifeline) {
+function  liquid($type, $breed, $name, $size, $fishing, $where, $season, $eat, $lifeline) {
 	$this->breed = $breed;
 	$this->type = $type;
 	$this->name = $name;
@@ -116,14 +116,43 @@ return $this->lifeline;
 
 }
 
+//======example 2 =============
+
+
 class tvshow{
 	public $familyguy;
 	public $simpson;
 	public $name;
 	public $when;
-	Public $
-}
+	Public $publish;
 
+	function watch($familyguy, $simpson, $name, $when, $publish){
+		$this->familyguy = $familyguy;
+		$this->simpson = $simpson;
+		$this->name = $name;
+		$this->when = $when;
+		$this->publish = $publish;
+
+	}
+	function watchtwo(){
+		return "my favor tvshow is".$this->$familyguy "and" $this->simpson;
+	}
+
+}
+class peter extends tvshow{
+	function hello(){
+		return $this->familyguy.
+	}
+}
+	class homor extends tvshow{
+		function hi(){
+			return $this->simpson;
+		}
+	}
+
+$tv = new tv("when" "fame" "play");
+
+print "this tv has " . $tv­>watchtwo();
 
 
 
