@@ -107,6 +107,45 @@
 print "this music has " . $pop­>Mymusic();
 
 
+//=======example 3==========
+
+class tvshow{
+	public $familyguy;
+	public $simpson;
+	public $name;
+	public $when;
+	Public $publish;
+
+	function watch($familyguy, $simpson, $name, $when, $publish){
+		$this->familyguy = $familyguy;
+		$this->simpson = $simpson;
+		$this->name = $name;
+		$this->when = $when;
+		$this->publish = $publish;
+
+	}
+	function watchtwo(){
+		return "my favor tvshow is".$this->$familyguy "and" $this->simpson;
+	}
+
+}
+class peter extends tvshow{
+	function hello(){
+		return $this->familyguy.
+	}
+}
+	class homor extends tvshow{
+		function hi(){
+			return $this->simpson;
+		}
+	}
+
+$tv = new tv("when" "fame" "play");
+
+print "this tv has " . $tv­>watchtwo();
+
+
+
 
 
 ?>
