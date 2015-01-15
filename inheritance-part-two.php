@@ -30,7 +30,19 @@
 	}
 
 	class job extends mankind{
-		
+		function __construct($woman, $man, $child, $techology, $philosophy, $law){
+			parent::__construct($woman, $man, $child, $techology, $philosophy, $law);
+			$this->meow = $meow;
+		}
+		function meet(){
+			return $this->meow;
+
+		}
+
+	}
+
+	class life extends animal{
+		function __contruct()
 	}
 
 ?>
