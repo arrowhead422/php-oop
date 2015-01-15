@@ -25,9 +25,9 @@
 
 		}
 
-		$fish = new fish();
-		$fish->breed = "bass and has the color of";
-		$fish->color = "light green";
+		$fish1 = new fish();
+		$fish1->breed = "bass and has the color of";
+		$fish1->color = "light green";
 
 	}
 		print "a fish call {$fish->fish()}. ";

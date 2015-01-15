@@ -7,9 +7,6 @@
 
 <?php
 
-/**
-* 
-*/
 
 //====example 1====//
 //Question :notes why you think it outputs this along with your three other examples.
